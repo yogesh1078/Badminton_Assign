@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = '/api';
+// const API_URL = '/api';
+const API_URL = 'https://badminton-assign2.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_URL,
